@@ -10,7 +10,7 @@ def line(deli)
 		index += 1
     new_array[c] = index.to_s + "."
     c += 1
-    binding.pry
+  
     new_array[c] = name
   end
   p new_array
