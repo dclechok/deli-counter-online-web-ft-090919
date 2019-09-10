@@ -1,3 +1,5 @@
+require 'pry'
+
 def line(deli)
   if deli.empty?
     return "The line is currently empty."
@@ -8,7 +10,9 @@ def line(deli)
 		index += 1
     print index.to_s + ". " + name + " "
    end
+  binding.pry
 end
+
 
 def take_a_number(current_people, s_name)
   
