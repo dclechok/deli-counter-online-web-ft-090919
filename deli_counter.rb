@@ -19,5 +19,3 @@ end
 def now_serving
   
 end
-
-# "Welcome, Ada. You are number 1 in line.
