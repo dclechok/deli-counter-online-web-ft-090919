@@ -4,6 +4,8 @@ def line(deli)
   end
 
   puts "The line is currently: " 
+  
+  
   deli.each_with_index do |name, index|
 		index += 1
     puts index.to_s + ". " + name + " "
