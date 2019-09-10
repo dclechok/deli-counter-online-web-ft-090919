@@ -1,7 +1,6 @@
 require 'pry'
 
 def line(deli)
-  new_array = ["The line is currently:"]
   if deli.empty?
     puts "The line is currently empty."
   else  
