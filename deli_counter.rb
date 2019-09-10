@@ -13,3 +13,5 @@ end
 def now_serving
   
 end
+
+# "The line is currently: 1. Logan 2. Avi 3. Spencer
