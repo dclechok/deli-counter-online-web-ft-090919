@@ -14,7 +14,6 @@ def take_a_number(current_people, s_name)
 	current_people << s_name
 	place = current_people.index(s_name)
 	puts "Welcome, #{s_name}. You are number #{place} in line."
-
 end
 
 def now_serving
