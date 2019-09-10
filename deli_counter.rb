@@ -9,7 +9,7 @@ def line(deli)
       new_array << "#{index + 1}. #{name}"
     end
   end
-end
+
 
   puts new_array.join(" ")
 end
