@@ -12,11 +12,11 @@ end
 
 
 def take_a_number(current_people, s_name)
-  
+  puts current_people.size
 end
 
 def now_serving
   
 end
 
-# "The line is currently: 1. Logan 2. Avi 3. Spencer
+# "Welcome, Ada. You are number 1 in line.
