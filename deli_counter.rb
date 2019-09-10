@@ -1,3 +1,5 @@
+require 'pry'
+
 def line(deli)
   if deli.empty?
     puts "The line is currently empty."
@@ -7,6 +9,7 @@ def line(deli)
   deli.each_with_index do |name, index|
 		index += 1
     new_array[c] = index.to_s + "."
+    binding.pry
     c += 1
     new_array[c] = name
   end
