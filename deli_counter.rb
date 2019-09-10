@@ -2,9 +2,10 @@ def line(deli)
   if line.empty?
     return "The line is currently empty."
   else
-    line.each_with_index do |name, index| 
+    print "The line is currently: " 
+    line.each_with_index do |name, index|
       # "The line is currently: 1. Logan 2. Avi 3. Spencer
-      puts "The line is currently: " + index.to_s + "." + name
+      + index.to_s + "." + name
     end
 end
 
