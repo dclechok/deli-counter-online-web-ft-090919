@@ -5,11 +5,13 @@ def line(deli)
   new_array = []
   c = 0
   deli.each_with_index do |name, index|
-    new_array[c] = index
+		index += 1
+    new_array[c] = index.to_s + "."
+		p new_array[c]
     c += 1
     new_array[c] = name
   end
-  
+  p new_array
 end
 
 
