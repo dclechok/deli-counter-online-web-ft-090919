@@ -10,7 +10,7 @@ def line(deli)
 		index += 1
     print index.to_s + ". " + name + " "
    end
-  binding.pry
+  # binding.pry
 end
 
 
