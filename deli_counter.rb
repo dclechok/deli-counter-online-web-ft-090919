@@ -11,7 +11,6 @@ def line(deli)
     end
   end
 
-
   puts new_array.join(" ")
 end
 
