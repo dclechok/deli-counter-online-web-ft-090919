@@ -2,9 +2,13 @@ def line(deli)
   if deli.empty?
     puts "The line is currently empty."
   end
+  new_array = []
+  c = 0
   deli.each_with_index do |name, index|
-	index += 1
-  puts index.to_s + ". " + name + " "
+    new_array[c] = index
+    c += 1
+    new_array[c] = name
+  end
   
 end
 
