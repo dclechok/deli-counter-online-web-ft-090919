@@ -1,5 +1,5 @@
-def line()
-  
+def line(deli)
+  if line
 end
 
 def take_a_number(current_people, s_name)
