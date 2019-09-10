@@ -1,6 +1,7 @@
 def line(deli)
   if line.empty?
     return "The line is currently empty."
+  end
   else
     print "The line is currently: " 
     line.each_with_index do |name, index|
