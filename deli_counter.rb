@@ -2,7 +2,7 @@ require 'pry'
 
 def line(deli)
   if deli.empty?
-    return "The line is currently empty."
+    p "The line is currently empty."
   end
   new_array = ["The line is currently:"]
 
