@@ -8,6 +8,7 @@ def line(deli)
   c = 0
   deli.each_with_index do |name, index|
 		index += 1
+		
     new_array[c] = index.to_s + "."
     c += 1
   
