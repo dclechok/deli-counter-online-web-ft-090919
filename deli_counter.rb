@@ -5,13 +5,12 @@ def line(deli)
     puts "The line is currently empty."
   end
   new_array = ["The line is currently:"]
-  c = 0
+
   deli.each_with_index do |name, index|
     new_array << "#{index + 1}. #{name}"
-    
   end
-  binding.pry
-  p new_array
+
+  puts new_array.join(" ")
 end
 
 
