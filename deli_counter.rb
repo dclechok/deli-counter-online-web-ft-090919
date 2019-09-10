@@ -3,11 +3,11 @@ def line(deli)
     return "The line is currently empty."
   end
 
-    print "The line is currently: " 
-    line.each_with_index do |name, index|
-      # "The line is currently: 1. Logan 2. Avi 3. Spencer
-      index.to_s + ". " + name + " "
-    end
+  print "The line is currently: " 
+  deli.each_with_index do |name, index|
+		index += 1
+    print index.to_s + ". " + name + " "
+   end
 end
 
 def take_a_number(current_people, s_name)
