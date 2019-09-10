@@ -4,13 +4,12 @@ def line(deli)
   if deli.empty?
     puts "The line is currently empty."
   else  
-    
+    new_array = ["The line is currently:"]
+    deli.each_with_index do |name, index|
+      new_array << "#{index + 1}. #{name}"
+    end
   end
-  new_array = ["The line is currently:"]
-
-  deli.each_with_index do |name, index|
-    new_array << "#{index + 1}. #{name}"
-  end
+end
 
   puts new_array.join(" ")
 end
